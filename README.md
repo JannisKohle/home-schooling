@@ -66,37 +66,17 @@ clone all of your courses. You can even have subdirectories in that folder, for 
 
 
 
-## How we code the backend:
+## How I code the backend:
 
 ### Classes:
 
-- Account: {
-    name: name of account,
-    password: passsword of account,
-    id: id of account,
-    courses: courses of account (with role = teacher/student),
-    inbox: new invatations
-}
+- Account: name, password, id, courses (with role = teacher/student), inbox (new invatations / if somebody joined
+  your course / a student submitted solution / ...)
 
-- Course: {
-    name,
-    id,
-    teachers,
-    students,
-    chats
-}
+- Course: name, id, teachers, students, chats
 
-- Invatation: {
-    from_user,
-    to_user,
-    course,
-    role
-}
+- Invatation: from_user, to_user, course (id), role (teacher or student)
 
-- Chat: {
-    name,
-    id,
-    people
-}
+- Chat: name, id, course (id), people (list of people who can see and write in this chat)
 
 ![classes-diagram](diagram.png)
