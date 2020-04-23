@@ -1,6 +1,6 @@
 # home-schooling
 
-##Description:
+## Description:
 
 - With this program you can create an account.
 - You can create courses and invite other people to the course.
