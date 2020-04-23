@@ -2,22 +2,24 @@
 
 ## Description:
 
-- With this program you can create an account.
-- You can create courses and invite other people to the course.
-- In a course the course leader can upload folders and files from his computer.
-- The students who are in the course can then clone the course onto their computer.
-  If you clone the whole course, you get 2 folders. In one of the folders, there are all of the
-  files and folders from the teacher. In the other folder the students can put solutions to exercises
-  which they had to do. In the app they can then submit the solutions and the teacher can see / correct
-  them.
-- In every course the students can  talk to the teacher in a chat if they have questions or problems.
-  There's also a chat for the whole course
+This program helps schools or other organizations toteach people something online. I got that idea
+when I was thinking about how bad the system is my school is using for home schooling.
+So I wanted to create something better:
 
-- As the leader of a course, you can also add other teachers (invite them)
+## How to use it:
 
-- In a course, you can have one of the two roles: Teacher (Admin) and Student
+There is a desktop app. In the app you first have to choose a folder on your computer, in which you
+clone all of your courses. You can even have subdirectories in that folder, for different areas.
 
-### Things Admins can do:
+There are accounts and courses. In a course you can have one of the two roles: teacher and student.
+In courses, teachers can create exercises and the students can submit the solutions. If you want to
+create a course, you have to upload a folder with all the content to the course. Other people in the
+course can then clone the course or pull the newest changes to get it to their computer.
+
+Cloning a course will create a course folder (the program asks you where) with two subdirectories:
+submissions and content
+
+### Things Teachers can do:
 
 - invite students
 
@@ -39,11 +41,6 @@
 
 - talk in different chats
 
-## How to use it:
-
-There is a desktop app. In the app you first have to choose a folder on your computer, in which you
-clone all of your courses. You can even have subdirectories in that folder, for different areas.
-
 ### Example of course folder:
 
 - my-courses
@@ -63,6 +60,8 @@ clone all of your courses. You can even have subdirectories in that folder, for 
 - - math
 
 - - science
+
+In the courses like drumming or math there are two subdirectories: submissions and content (line 19 / 20)
 
 
 
