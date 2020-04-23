@@ -79,4 +79,6 @@ clone all of your courses. You can even have subdirectories in that folder, for 
 
 - Chat: name, id, course (id), people (list of people who can see and write in this chat)
 
+*Invatations should be Inbox in the picture*
+
 ![classes-diagram](diagram.png)
