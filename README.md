@@ -50,19 +50,19 @@ clone all of your courses. You can even have subdirectories in that folder, for 
 
 - - hobbies-courses
 
-- - - drumming-course
+- - - drumming
 
-- - - piano-course
+- - - piano
 
 - - sports-courses
 
-- - - football-course
+- - - football
 
-- - - handball-course
+- - - handball
 
-- - math-courses
+- - math
 
-- - science-course
+- - science
 
 
 
