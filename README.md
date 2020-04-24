@@ -74,10 +74,35 @@ In the courses like drumming or math there are two subdirectories: submissions a
 
 - Course: name, id, teachers, students, chats
 
-- Invatation: from_user, to_user, course (id), role (teacher or student)
+- Invatation: from_user, to_user, course (id), id, role (teacher or student)
 
 - Chat: name, id, course (id), people (list of people who can see and write in this chat)
 
 *Invatations should be Inbox in the picture*
 
 ![classes-diagram](diagram.png)
+
+
+## IDs:
+
+As you can see at the section with the classes, every object has an ID. That is better than just having names because
+different courses can have the same name. (e.g. there are two schools, both have their own course called 'Mathematics')
+
+The IDs look similar to the IDs I use in my Smart Home Repository (github.com/JannisKohle/SmartHome).
+It is always two letters at the beginning (type of object) and an integer between 100 and 999. Because
+of that, there are only about 800 possible IDs for each type. If lots of people use this platform, that would be pretty
+terrible. Of course later, when more people are using the platform, we can change how the IDs work. But then, there
+are still the old courses with the old IDs, and it's very hard to change their IDs, because you would have to do that for
+every course, then for every user in that course. -> It's a lot easier to just use bigger IDs from the beginning, so
+now I am using IDs with two letters and an integer between 10,000 and 99,999.
+Actually, right now nobody can really download and *use* this App. But if it is finished one day, it should really work.
+
+### Example IDs:
+
+- AC93759 -> AC = Account
+
+- CO37855 -> CR = Course
+
+- IN34825 -> IN = Invatation
+
+- CH29464 -> CH = Chat
