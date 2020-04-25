@@ -72,9 +72,9 @@ In the courses like drumming or math there are two subdirectories: submissions a
 
 - Course: name, id, teachers, students, chats
 
-- Invatation: from_user, to_user, course (id), id, role (teacher or student)
+- Invatation: id, from_user, to_user, course (id), role (teacher or student)
 
-- Chat: name, id, course (id), people (list of people who can see and write in this chat)
+- Chat: name, id, course (id), members (list of people who can see and write in this chat)
 
 *Invatations should be Inbox in the picture*
 
