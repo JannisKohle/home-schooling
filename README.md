@@ -2,9 +2,7 @@
 
 ## Description:
 
-This program helps schools or other organizations toteach people something online. I got that idea
-when I was thinking about how bad the system is my school is using for home schooling.
-So I wanted to create something better:
+This is a Home Schooling App built with Python and Electron.
 
 ## How to use it:
 
