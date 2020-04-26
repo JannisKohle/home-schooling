@@ -9,13 +9,31 @@ This is a Home Schooling App built with Python and Electron.
 There is a desktop app. In the app you first have to choose a folder on your computer, in which you
 clone all of your courses. You can even have subdirectories in that folder, for different areas.
 
-There are accounts and courses. In a course you can have one of the two roles: teacher and student.
-In courses, teachers can create exercises and the students can submit the solutions. If you want to
-create a course, you have to upload a folder with all the content to the course. Other people in the
-course can then clone the course or pull the newest changes to get it to their computer.
+Every account can create a course. If you create the course, you can invite other people to it. You can decide
+if they are a teacher or student. As the course leader, you can of course remove other people (teachers and
+students) and you can even delete the whole course.
 
 Cloning a course will create a course folder (the program asks you where) with two subdirectories:
 submissions and content
+
+## The App:
+
+The first time you open the app, you have to press the SIGN IN or SIGN UP button.
+
+If you open the app after that, you can go to three different sections:
+
+- **MY COURSES**: here you can see a list of all your courses
+
+- **INBOX**: here you can see all new invatations you got, new exercises / events / ... in a course
+
+- **MY CALENDAR**: here you can see a calendar with all of your courses' events (it automatically updates if ther's a new event)
+
+- **SETTINGS**: just some settings
+
+On the left side of the screen you can also navigate to your most opened courses.
+
+If you open a course, you can navigate to **CONTENT**, **EXERCISES**, **EVENTS**, **CHATS**, **SURVEYS** and if you are the course
+leader, also **SETTINGS**.
 
 ### Things Teachers can do:
 
@@ -27,9 +45,16 @@ submissions and content
 
 - see/correct students' solutions
 
-- create new chat (there's automatically a chat for every student)
+- create new chat (automatically created chats: one for every student (to all the teachers), one for all the students and one for all
+the teachers)
 
-- talk in every chat
+- create new exercise
+
+- create new date
+
+- create new survey
+
+- talk in chats
 
 ### Things Students can do:
 
@@ -37,7 +62,9 @@ submissions and content
 
 - see teacher's correction of solutions
 
-- talk in different chats
+- take part in survey
+
+- talk in some chats
 
 ### Example of course folder:
 
@@ -59,7 +86,7 @@ submissions and content
 
 - - science
 
-In the courses like drumming or math there are two subdirectories: submissions and content (line 19 / 20)
+In the courses like drumming or math there are two subdirectories: submissions and content
 
 
 
@@ -67,10 +94,10 @@ In the courses like drumming or math there are two subdirectories: submissions a
 
 ### Classes:
 
-- **Account:** name | password | id | courses (with role = teacher/student) | inbox (new invatations / if somebody joined
+- **Account:** name | password | id | courses (with role = teacher/student; IDs) | inbox (new invatations / if somebody joined
   your course / a student submitted solution / ...)
 
-- **Course:** name | id | teachers | students | chats
+- **Course:** name | id | color (probably rgb) | teachers | students | chats (IDs) | leader (creator; id)
 
 - **Exercise:** name | course (id) | description | id | creator (id) | for_students (students' IDs; only students)
 
@@ -78,9 +105,9 @@ In the courses like drumming or math there are two subdirectories: submissions a
 
 - **Survey**: name | id | description | course (id) | creator (id) | for_people (people's IDs; students OR/AND teachers)
 
-- **Invatation:** id | from_user | to_user | course (id) | role (teacher or student)
+- **Invatation:** id | from_user (id) | to_user (id) | course (id) | role (teacher or student)
 
-- **Chat:** name | id | course (id) | people (list of people who can see and write in this chat)
+- **Chat:** name | id | course (id) | people (list of people who can see and write in this chat; IDs)
 
 
 
@@ -104,6 +131,12 @@ Actually, right now nobody can really download and *use* this App. But if it is 
 - AC93759 -> AC = Account
 
 - CO37855 -> CR = Course
+
+- EX87527 -> EX = Exercise
+
+- DA29596 -> DA = Date
+
+- SU64024 -> SU = Survey
 
 - IN34825 -> IN = Invatation
 
