@@ -67,20 +67,20 @@ In the courses like drumming or math there are two subdirectories: submissions a
 
 ### Classes:
 
-- *Account:* name | password | id | courses (with role = teacher/student) | inbox (new invatations / if somebody joined
+- **Account:** name | password | id | courses (with role = teacher/student) | inbox (new invatations / if somebody joined
   your course / a student submitted solution / ...)
 
-- *Course:* name | id | teachers | students | chats
+- **Course:** name | id | teachers | students | chats
 
-- *Exercise:* name | course (id) | description | id | creator (id) | for_students (students' IDs; only students)
+- **Exercise:** name | course (id) | description | id | creator (id) | for_students (students' IDs; only students)
 
-- *Date*: name | id | course (id) | description | creator (id) | for_people (people's IDs; students OR/AND teachers)
+- **Date**: name | id | course (id) | description | creator (id) | for_people (people's IDs; students OR/AND teachers)
 
-- *Survey*: name | id | description | course (id) | creator (id) | for_people (people's IDs; students OR/AND teachers)
+- **Survey**: name | id | description | course (id) | creator (id) | for_people (people's IDs; students OR/AND teachers)
 
-- *Invatation:* id | from_user | to_user | course (id) | role (teacher or student)
+- **Invatation:** id | from_user | to_user | course (id) | role (teacher or student)
 
-- *Chat:* name | id | course (id) | people (list of people who can see and write in this chat)
+- **Chat:** name | id | course (id) | people (list of people who can see and write in this chat)
 
 
 
