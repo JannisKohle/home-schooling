@@ -67,24 +67,28 @@ In the courses like drumming or math there are two subdirectories: submissions a
 
 ### Classes:
 
-- Account: name, password, id, courses (with role = teacher/student), inbox (new invatations / if somebody joined
+- *Account:* name | password | id | courses (with role = teacher/student) | inbox (new invatations / if somebody joined
   your course / a student submitted solution / ...)
 
-- Course: name, id, teachers, students, chats
+- *Course:* name | id | teachers | students | chats
 
-- Invatation: id, from_user, to_user, course (id), role (teacher or student)
+- *Exercise:* name | course (id) | description | id | creator (id) | for_students (students' IDs; only students)
 
-- Chat: name, id, course (id), members (list of people who can see and write in this chat)
+- *Date*: name | id | course (id) | description | creator (id) | for_people (people's IDs; students OR/AND teachers)
 
-*Invatations should be Inbox in the picture*
+- *Survey*: name | id | description | course (id) | creator (id) | for_people (people's IDs; students OR/AND teachers)
 
-![classes-diagram](diagram.png)
+- *Invatation:* id | from_user | to_user | course (id) | role (teacher or student)
+
+- *Chat:* name | id | course (id) | people (list of people who can see and write in this chat)
+
 
 
 ## IDs:
 
 As you can see at the section with the classes, every object has an ID. That is better than just having names because
 different courses can have the same name. (e.g. there are two schools, both have their own course called 'Mathematics')
+BUT there can't be two things with the same name in ONE course.
 
 The IDs look similar to the IDs I use in my Smart Home Repository (github.com/JannisKohle/SmartHome).
 It is always two letters at the beginning (type of object) and an integer between 100 and 999. Because
