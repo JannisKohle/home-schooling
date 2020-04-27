@@ -50,7 +50,7 @@ the teachers)
 
 - create new exercise
 
-- create new date
+- create new event
 
 - create new survey
 
@@ -101,7 +101,7 @@ In the courses like drumming or math there are two subdirectories: submissions a
 
 - **Exercise:** name | course (id) | description | id | creator (id) | for_students (students' IDs; only students)
 
-- **Date**: name | id | course (id) | description | creator (id) | for_people (people's IDs; students OR/AND teachers)
+- **Event**: name | id | course (id) | description | creator (id) | for_people (people's IDs; students OR/AND teachers)
 
 - **Survey**: name | id | description | course (id) | creator (id) | for_people (people's IDs; students OR/AND teachers)
 
@@ -134,7 +134,7 @@ Actually, right now nobody can really download and *use* this App. But if it is 
 
 - EX87527 -> EX = Exercise
 
-- DA29596 -> DA = Date
+- DA29596 -> DA = Event
 
 - SU64024 -> SU = Survey
 
