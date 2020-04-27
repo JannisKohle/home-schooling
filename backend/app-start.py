@@ -13,3 +13,6 @@ class App():
 
     def sign_up(self, username, password):  # return True if it works, otherwise False
         pass
+
+
+app = App()
