@@ -141,3 +141,9 @@ Actually, right now nobody can really download and *use* this App. But if it is 
 - IN34825 -> IN = Invatation
 
 - CH29464 -> CH = Chat
+
+
+## What's stored where?
+
+All the users, courses and things like invatations / chats are stored in a database.
+What's stored on the user's computer, is if the user is logged in, the user's data ...
