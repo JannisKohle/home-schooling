@@ -1,3 +1,6 @@
+# This file is called when you open the electron app.
+
+
 class App():
     def __init__(self):
         pass
