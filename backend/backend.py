@@ -1,3 +1,6 @@
+# This is the backend used in the Electron app when creating something new, or accepting an invatation ...
+# -> This communicates between the Frontend and the database
+
 id_meanings = {"AC": "Account", "CO": "Course", "EX": "Exercise",
                "EV": "Event", "SU": "Survey", "IN": "Invatation", "CH": "Chat"}
 
