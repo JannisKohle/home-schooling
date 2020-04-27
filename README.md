@@ -2,7 +2,13 @@
 
 ## Description:
 
-This is a Home Schooling App built with Python and Electron.
+This is a Home Schooling App built with:
+
+- Frontend: Electron
+
+- Backend: Python
+
+- Database: ???
 
 ## How to use it:
 
