@@ -10,8 +10,8 @@ function createWindow () {
     }
   })
 
-  // and load the index.html of the app.
-  win.loadFile('index.html')
+  // here we need to know if someone is logged in (backend/acc_status.py) (-> else load a different file)
+  win.loadFile('html/index.html')
 }
 
 app.whenReady().then(createWindow)
