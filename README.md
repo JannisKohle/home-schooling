@@ -40,7 +40,9 @@ On the left side of the screen you can also navigate to your most recent opened 
 the settings.
 
 If you open a course, you can navigate to **CONTENT**, **EXERCISES**, **EVENTS**, **CHATS**, **SURVEYS** and if you are the course
-leader, also **SETTINGS**.
+leader, also **SETTINGS**. (There was not enough space for all the links in my picture)
+
+![UI](UI.png)
 
 ### Things Teachers can do:
 
