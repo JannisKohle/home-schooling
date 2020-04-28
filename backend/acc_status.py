@@ -1,4 +1,4 @@
-# This file is called when you open the electron app.
+# This file is always called when you open the electron app.
 
 
 class App():

@@ -36,7 +36,8 @@ If you open the app after that, you can go to three different sections:
 
 - **SETTINGS**: just some settings
 
-On the left side of the screen you can also navigate to your most opened courses.
+On the left side of the screen you can also navigate to your most recent opened courses, you can create a new course, log out and go to
+the settings.
 
 If you open a course, you can navigate to **CONTENT**, **EXERCISES**, **EVENTS**, **CHATS**, **SURVEYS** and if you are the course
 leader, also **SETTINGS**.
