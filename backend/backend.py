@@ -7,7 +7,8 @@ id_meanings = {"AC": "Account", "CO": "Course", "EX": "Exercise",
 reverse_id_meanings = {v: k for k, v in zip(id_meanings.keys(), id_meanings.values())}
 
 
-def create_id(type):  # type = 'Account' or 'Event' ...
+# type = 'Account' or 'Event' ...
+def create_id(type):
     pass
 
 
@@ -66,3 +67,7 @@ class App():
             self.id = id
             self.course = course
             self.members = members
+
+    # clone the course into directory and display is in color in the app:
+    def clone(self, course_id, directory, view_color):
+        pass
