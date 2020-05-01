@@ -20,7 +20,7 @@ if they are a teacher or student. As the course leader, you can of course remove
 students) and you can even delete the whole course.
 
 Cloning a course will create a course folder (the program asks you where) with two subdirectories:
-submissions and content
+.data and the folder which the teacher uploaded.
 
 ## The App:
 
@@ -95,7 +95,7 @@ the teachers)
 
 - - science
 
-In the courses like drumming or math there are two subdirectories: submissions and content
+In the courses like drumming or math there are two subdirectories: .data and the folder with the content
 
 
 
