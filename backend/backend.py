@@ -19,12 +19,21 @@ class App():
             self.password = password
             self.id = id
 
+        def join_course(self, course):
+            pass
+
+        def join_chat(self, chat):
+            pass
+
     class Course():
         def __init__(self, name, id, teachers, students):
             self.name = name
             self.id = id
             self.teachers = teachers
             self.students = students
+
+        def invite(self, person, role):
+            pass
 
     class Exercise():
         def __init__(self, name, course, id, description, creator, for_students):
